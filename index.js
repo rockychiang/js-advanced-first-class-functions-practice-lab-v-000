@@ -8,5 +8,5 @@ const logDriversByHometown = function (drivers, location) {
 
 const driversByRevenue = function (drivers) {
   const newDrivers = Object.assign([], ...drivers)
-  return drivers.sort(function(){})
+  return newDrivers.sort(function(a,b){return a.name.})
 }
