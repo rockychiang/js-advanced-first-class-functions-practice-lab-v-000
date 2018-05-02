@@ -14,3 +14,7 @@ const driversByName = function (drivers) {
   const newDrivers = Object.assign([], drivers)
   return newDrivers.sort(function(a,b){return a.name.localeCompare(b.name)})
 }
+
+const totalRevenue = function (driver) {
+  
+}
