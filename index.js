@@ -5,3 +5,7 @@ const logDriverNames = function (drivers) {
 const logDriversByHometown = function (drivers, location) {
   logDriverNames(drivers.filter(driver => driver.hometown == location))
 }
+
+const driversByRevenue = function (drivers) {
+  
+}
