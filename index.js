@@ -11,6 +11,6 @@ const driversByRevenue = function (drivers) {
   return newDrivers.sort(function(a,b){return a.revenue - b.revenue})
 }
 const driversByName = function (drivers) {
-  const newDrivers = Object.assign([], ...drivers)
+  const newDrivers = Object.assign([], drivers)
   return newDrivers.sort(function(a,b){return a.name.localeCompare(b.name)})
 }
