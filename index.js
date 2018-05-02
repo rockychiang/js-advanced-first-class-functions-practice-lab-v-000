@@ -3,5 +3,5 @@ const logDriverNames = function (drivers) {
 }
 
 const logDriversByHometown = function (drivers, location) {
-  drivers.logDriverNames(drivers.filter(driver => driver.hometown == location))
+  logDriverNames(drivers.filter(driver => driver.hometown == location))
 }
